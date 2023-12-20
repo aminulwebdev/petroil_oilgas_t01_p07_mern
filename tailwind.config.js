@@ -11,7 +11,10 @@ tailwind.config = {
       },
       fontFamily: {
         'poppins': "'Poppins', sans-serif",
+      },
+      backgroundImage: {
+        'banner': " linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/banner.jpg')",
       }
-    },
-  },
-};
+    }
+  }
+}
