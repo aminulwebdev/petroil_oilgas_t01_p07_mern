@@ -16,26 +16,30 @@
   <!-- ================================
                 Header Start Here
     ===================================== -->
-  <header class="bg-headerbg pt-4 pb-[1px]">
+  <header class="bg-headerbg pt-2 sm:pt-4 pb-[1px]">
     <div class="max-w-container mx-auto">
-      <div class="flex items-center justify-between">
-        <div class="flex items-center gap-x-[50px]">
+      <div class="flex items-center justify-between flex-col sm:flex-row sm:px-5">
+        <div class="flex items-center gap-x-[50px] flex-col gap-y-[5px] sm:flex-row">
           <a href="mailto:aminulwebdev@gmail.com"
-            class="text-xs font-normal leading-normal flex items-center gap-x-2 text-white relative after:absolute after:content-[''] after:top-1/2 after:-translate-y-1/2 after:-right-6 after:w-[1px] after:h-4 after:bg-[#5C6A92]"><i
-              class="fa-regular fa-envelope text-lg"></i>aminulwebdev@gmail.com</a>
+            class=" text-[10px] sm:text-xs font-normal leading-normal flex items-center gap-x-2 text-white relative after:absolute after:content-[''] after:top-1/2 after:-translate-y-1/2 after:-right-6 after:w-[1px] after:h-4 after:bg-[#5C6A92] after:opacity-0 md:after:opacity-100"><i
+              class="fa-regular fa-envelope text-sm sm:text-lg"></i>aminulwebdev@gmail.com</a>
           <a href="mailto:aminulwebdev@gmail.com"
-            class="text-xs font-normal leading-normal flex items-center gap-x-2 text-white"><i
-              class="fa-solid fa-phone-volume text-lg"></i>+896 120 5889 (Toll free)</a>
+            class="text-[10px] sm:text-xs font-normal leading-normal flex items-center gap-x-2 text-white"><i
+              class="fa-solid fa-phone-volume text-sm sm:text-lg"></i>+896 120 5889 (Toll free)</a>
         </div>
-        <div class="flex items-center justify-end gap-x-5">
-          <a href="#" target="_blank" class="text-white text-sm"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#" target="_blank" class="text-white text-sm"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#" target="_blank" class="text-white text-sm"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#" target="_blank" class="text-white text-sm"><i class="fa-brands fa-facebook-f"></i></a>
+        <div class="flex items-center justify-end gap-x-5 mt-[5px] sm:mt-0">
+          <a href="#" target="_blank" class="text-white text-[10px] sm:text-sm"><i
+              class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" target="_blank" class="text-white text-[10px] sm:text-sm"><i
+              class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" target="_blank" class="text-white text-[10px] sm:text-sm"><i
+              class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" target="_blank" class="text-white text-[10px] sm:text-sm"><i
+              class="fa-brands fa-facebook-f"></i></a>
         </div>
       </div>
     </div>
-    <div class="bg-yellow-400 py-1 mt-[10px]"></div>
+    <div class="bg-yellow-400 py-[1px] md:py-1 mt-[5px] sm:mt-3"></div>
   </header>
   <!-- ================================
                 Header End Here
@@ -46,12 +50,12 @@
     ===================================== -->
   <nav class="bg-primary py-7">
     <div class="max-w-container mx-auto">
-      <div class="flex items-center justify-between">
-        <div>
+      <div class="flex items-center justify-between px-5 md:0">
+        <div class="w-[150px] md:w-auto">
           <a href="#"> <img src="./images/logo.png" alt="not found"></a>
         </div>
         <div>
-          <ul class="flex items-center gap-x-12">
+          <ul class=" items-center gap-x-12 hidden md:flex">
             <li>
               <a href="#"
                 class="text-white text-base font-semibold leading-normal capitalize relative after:transition-all after:duration-300  after:content-[''] after:absolute after:top-full after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-white after:rounded-lg hover:after:w-full ">home</a>
@@ -72,7 +76,10 @@
         </div>
         <div>
           <a href="#"
-            class="text-white text-base font-semibold leading-normal uppercase border-[2px] border-white py-[14px] px-8 inline-block transition-all duration-300 hover:bg-white hover:border-white hover:text-primary ">contact</a>
+            class="text-white text-base font-semibold leading-normal uppercase border-[2px] border-white py-[14px] px-8 md:inline-block transition-all duration-300 hover:bg-white hover:border-white hover:text-primary hidden ">contact</a>
+        </div>
+        <div class="md:hidden">
+          <i class="fa-solid fa-bars-staggered text-white text-xl"></i>
         </div>
       </div>
     </div>
@@ -102,7 +109,7 @@
     ===================================== -->
     <section class="pt-[78px] pb-7 ">
       <div class="max-w-container mx-auto">
-        <div class="flex items-center justify-center gap-[196px]">
+        <div class="flex items-center gap-[196px]">
           <div>
             <h2 class="text-black  text-5xl font-bold leading-[72px] w-[298px]">The biggest
               supplier on
