@@ -14,7 +14,14 @@ tailwind.config = {
       },
       backgroundImage: {
         'banner': " linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/banner.jpg')",
-      }
+      },
+      screens: {
+        'sm': '576px',
+        'md': '768px',
+        'lg': '992px',
+        'xl': '1200px',
+        'xxl': '1400px',
+      },
     }
   }
 }
