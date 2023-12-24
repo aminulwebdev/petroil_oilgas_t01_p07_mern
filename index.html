@@ -16,7 +16,7 @@
   <!-- ================================
                 Header Start Here
     ===================================== -->
-  <header class="bg-headerbg pt-2 sm:pt-4 pb-[1px]">
+ <header class="bg-headerbg pt-2 sm:pt-4 pb-[1px]">
     <div class="max-w-container mx-auto">
       <div class="flex items-center justify-between flex-col sm:flex-row sm:px-5">
         <div class="flex items-center sm:gap-x-8 md:gap-x-[50px] flex-col gap-y-[5px] sm:flex-row">
@@ -162,7 +162,7 @@
         <div class="w-full lg:w-1/2  flex flex-col items-center lg:items-end lg:pr-[60px] xl:pr-[155px] px-5 sm:px-0 ">
           <h2 class="text-3xl lg:text-[64px] font-bold leading-normal text-black ">Our Services</h2>
           <p
-            class="text-[#6C6C6C] text-sm md:text-base font-medium leading-normal w-[405px]  text-center lg:text-start ">
+            class="text-[#6C6C6C] text-sm md:text-base font-medium leading-normal mx-w-[405px] lg:w-[405px]   text-center lg:text-start ">
             It is a long established
             fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
         </div>
@@ -178,9 +178,7 @@
                 class="text-white text-base font-semibold leading-normal py-[14px] px-[30px] border-[1px] border-white inline-block transition-all duration-500 hover:bg-primary hover:border-primary">learn
                 more</a>
             </div>
-
           </div>
-
         </div>
       </div>
       <div class="flex  items-center flex-wrap">
@@ -341,13 +339,13 @@
     ===================================== -->
     <section class="bg-primary border-b-4 border-[#FFB800]">
       <div class="max-w-container mx-auto ">
-        <div class="py-8 md:py-11 flex flex-col md:flex-row px-5 gap-y-5">
-          <div class="w-full md:w-4/5 text-center">
+        <div class="py-8 md:py-11 flex flex-col md:flex-row px-5 lg:px-0 gap-y-5">
+          <div class="w-full md:w-4/5 text-center lg:text-start">
             <h4 class="capitalize text-2xl md:text-3xl lg:text-4xl font-bold leading-normal text-white">Want to join as
               member branch
               in your area?</h4>
           </div>
-          <div class="w-full md:w-1/5 text-center">
+          <div class="w-full md:w-1/5 text-center lg:text-end">
             <a href="#"
               class="text-white text-base font-semibold leading-normal uppercase border-[2px] border-white py-2 md:py-[14px] px-4 md:px-8 inline-block transition-all duration-300 hover:bg-white hover:border-white hover:text-primary">contact</a>
           </div>
@@ -362,10 +360,10 @@
   <!-- ================================
                 Footer Start Here
     ===================================== -->
-  <footer class="bg-[#1F1F1F] pt-[140px]">
+  <footer class="bg-[#1F1F1F] pt-20 lg:pt-[140px] ">
     <div class="max-w-container mx-auto">
-      <div class="flex">
-        <div class="w-[40%]">
+      <div class="flex flex-col lg:flex-row px-5 xl:px-0">
+        <div class=" w-full lg:w-[40%] flex flex-col items-center lg:items-start">
           <div>
             <img src="./images/footer_logo.png" alt="">
           </div>
@@ -395,7 +393,9 @@
                 class="fa-brands fa-facebook-f text-xs"></i></a>
           </div>
         </div>
-        <div class="w-1/5">
+
+      <div class=" w-full lg:w-[40%] flex flex-col md:flex-row justify-center md:gap-x-10 lg:gap-x-0">
+        <div class="  lg:w-1/2 text-center pt-9 lg:pt-0 ">
           <h5 class="capitalize text-white text-base font-bold leading-normal">company</h5>
           <ul class="flex flex-col gap-y-[15px] pt-5">
             <li>
@@ -416,7 +416,8 @@
             </li>
           </ul>
         </div>
-        <div class="w-1/5">
+
+        <div class=" lg:w-1/2 text-center py-9 lg:py-0 ">
           <h5 class="capitalize text-white text-base font-bold leading-normal">company</h5>
           <ul class="flex flex-col gap-y-[15px] pt-5">
             <li>
@@ -437,18 +438,21 @@
             </li>
           </ul>
         </div>
-        <div class="w-1/5">
+      </div>
+
+        <div class="w-full lg:w-[20%] text-center lg:text-start ">
           <h5 class="capitalize text-white text-base font-bold leading-normal">Certificate</h5>
-          <div class="flex gap-x-1 pt-5">
+          <div class="flex gap-x-1 pt-5 justify-center lg:justify-start flex-wrap gap-y-4">
             <img src="./images/footer_imgOne.png" alt="not found" class="rounded">
             <img src="./images/footer_imgOne.png" alt="not found" class="rounded">
           </div>
         </div>
       </div>
     </div>
-    <div class="py-11 bg-[#282828] mt-[173px]">
+
+    <div class="py-6 lg:py-11 bg-[#282828] mt-20  lg:mt-[173px] px-5 lg:px-0 text-center">
       <div class="max-w-container mx-auto">
-        <p class="text-base font-medium leading-normal text-[#6C6C6C]">© Copyright 2022 by AltDesain Studio – All right
+        <p class="text-sm lg:text-base font-medium leading-normal text-[#6C6C6C]">© Copyright 2022 by AltDesain Studio – All right
           reserved.</p>
       </div>
     </div>
